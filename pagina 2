@@ -1,0 +1,511 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>OG luxury cars CATALOGO</title>
+	<meta name="description" content="Scarica gratis il nostro Template HTML/CSS GARAGE. Se avete bisogno di un design per il vostro sito web GARAGE può fare per voi. Web Domus Italia">
+	<meta name="author" content="Web Domus Italia">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="source/bootstrap-3.3.6-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="source/font-awesome-4.5.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="style/slider.css">
+	<link rel="stylesheet" type="text/css" href="style/mystyle.css">
+</head>
+<body>
+<!-- Header -->
+<div class="allcontain">
+	<div class="header">
+			<ul class="socialicon">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			</ul>
+			<ul class="givusacall">
+				<li>LLAMANOS YA! 0991029120 </li>
+			</ul>
+			<ul class="logreg">
+				
+			</ul>
+	</div>
+	<!-- Navbar Up -->
+	<nav class="topnavbar navbar-default topnav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
+					<span class="sr-only"> Toggle navigaion</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand logo" href="#"><img src="image/logo1.png" alt="logo"></a>
+			</div>	 
+		</div>
+		<div class="collapse navbar-collapse" id="upmenu">
+			<ul class="nav navbar-nav" id="navbarontop">
+				<li class="active"><a href="#">INICIO</a> </li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
+					<ul class="dropdown-menu dropdowncostume">
+						<li><a href="#">Deportivos</a></li>
+						<li><a href="#">Clasicos</a></li>
+						<li><a href="#">Nuevos</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marcas <span class="caret"></span></a>
+						<ul class="dropdown-menu dropdowncostume">
+							<li><a href="#">Audi</a></li>
+							<li><a href="#">Mercedes Benz</a></li>
+							<li><a href="3">Porsche</a></li>
+                            <li><a href="#">Maseratti</a></li>
+							<li><a href="#">Ferrari</a></li>
+							<li><a href="3">Rolls Royce</a></li>
+                            <li><a href="#">Lamborghini</a></li>
+							<li><a href="#">Ford</a></li>
+							<li><a href="3">Chevy</a></li>
+						</ul>
+				</li>
+				<li>
+					<a href="contact.html">CONTACTOS</a>
+ 
+				</li>
+				<button><span class="postnewcar">VEnder mi auo</span></button>
+			</ul>
+		</div>
+	</nav>
+</div>
+<!--_______________________________________ Carousel__________________________________ -->
+<div class="allcontain">
+	<div id="carousel-up" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner " role="listbox">
+			<div class="item active">
+				<img src="image/oldcar.jpg" alt="oldcar">
+				<div class="carousel-caption">
+					<h2>Porsche 356</h2>
+					<p>El clasico de los clasicos<br>
+						Fabricado para gente que sabe disfrutar un auto </p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/porche.jpg" alt="porche">
+				<div class="carousel-caption">
+					<h2>Porche</h2>
+						<p>Una de las mejores marcas alemanas,<br>
+						Autos con tecnologia de punta, adelantados a su tiempo. </p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/benz.jpg" alt="benz">
+				<div class="carousel-caption">
+					<h2>Car</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur ,<br>
+						sed do eiusmod tempor incididunt ut labore </p>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default midle-nav">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed textcostume" data-toggle="collapse" data-target="#navbarmidle" aria-expanded="false">
+						<h1>BUSCAR</h1>
+					<span class="sr-only">Inicia tu busqueda ahora</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarmidle">
+				<div class="searchtxt">
+					<h1>BUSCAR</h1>
+				</div>
+				<form class="navbar-form navbar-left searchformmargin" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control searchform" placeholder="Enter Keyword">
+					</div>
+				</form>
+				<ul class="nav navbar-nav navbarborder">
+					<li class="li-category">
+						<a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Categoria<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+						<ul class="dropdown-menu" id="mydd">
+							<li><a href="#">Exoticos</a></li>
+							<li><a href="#">Clasicos</a></li>
+							<li><a href="#">Nuevos</a></li>
+						</ul>
+					</li>
+					<li class="li-minyear"><a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Año min <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+						<ul class="dropdown-menu" id="mydd2">
+							<li><a href="#">2018</a></li>
+							<li><a href="#">2015</a></li>
+							<li><a href="#">2010</a></li>
+						</ul>
+					</li>
+					<li class="li-maxyear"><a class="btn dropdown-toggle btn-costume"  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Año max <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+						<ul class="dropdown-menu" id="mydd3">
+							<li><a href="#">2021</a></li>
+							<li><a href="#">2020</a></li>
+							<li><a href="#">2017</a></li>
+						</ul>
+					</li>
+					<li class="li-slideprice">
+						<p> <label class="slidertxt" for="amount">Precio </label>
+							<input class="priceslider" type="text" id="amount" readonly="readonly">
+						</p>
+							<div id="slider-range"></div>
+							
+					</li>
+					<li class="li-search"> <button class="searchbutton"><span class="glyphicon glyphicon-search "></span></button></li>
+				</ul>
+ 
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- ____________________Featured Section ______________________________--> 
+<div class="allcontain">
+	<div class="feturedsection">
+		<h1 class="text-center"><span class="bdots">&bullet;</span>M O D E L O S<span class="carstxt">N U E V O S</span>&bullet;</h1>
+	</div>
+	<div class="feturedimage">
+		<div class="row firstrow">
+			<div class="col-lg-6 costumcol colborder1">
+				<div class="row costumrow">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
+						<img src="https://imagenes-cdn.autofacil.es/multimedia/fotos/2018/11/28/144356/porsche-2_g.jpg" alt="porsche">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+						<div class="featurecontant">
+							<h1>PORSCHE 911</h1>
+							<p>Vehiculo diseñado para la pista<br>
+			 						motor v8 en tres versiones: 340, 500 y 650 HP </p>
+			 				<h2>Price &dollar;190,000,00</h2>
+			 				<button id="btnRM" onclick="rmtxt()">LEER MAS</button>
+			 				<div id="readmore">
+			 						<h1>PORSCHE 911</h1>
+			 						<p>Tecnologia Alemana diseñada para brindar el mejor rendimiento dentro de una pista gracias a su motor v8 biturbo.<br>
+			 						</p>
+			 						<button id="btnRL">LEER MENOS</button>
+			 				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 costumcol colborder2">
+				<div class="row costumrow">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+						<img src="https://fotos.perfil.com/2018/06/01/trim/1280/720/1-mercedes-amg-gt-r-1.jpg" alt="porsche1">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+						<div class="featurecontant">
+							<h1>Mercedes Benz AMG-GTR</h1>
+							<p>Diseñado para ofrecer comfort<br>
+			 						un vehiculo elegante, diseñado para quienes disfrutan de la comodidad. </p>
+			 				<h2>Price &dollar;250,000,00</h2>
+			 				<button id="btnRM2">LEER MAS</button>
+			 				<div id="readmore2">
+			 						<h1>MERCEDES BENZ AMG-GTR</h1>
+			 						<p>Mercedes BEnz AMG-GTR<br>
+			 						Un vehiculo centrado en la velocidad<br>Caracterizado con la comodidad de todos los modelos de la marca alemana<br>
+			 					Para quienes buscan un auto al que s ele pueda dar un uso diario, este es el modelo adecuado<br></p>
+			 						<button id="btnRL2">LEER MENOS</button>
+			 				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- ________________________LATEST CARS SECTION _______________________-->
+<div class="latestcars">
+	<h1 class="text-center">&bullet;UN VIAJE AL PASADO &bullet;</h1>
+	<ul class="nav nav-tabs navbar-left latest-navleft">
+		<li role="presentation" class="li-sortby"><span class="sortby">SORT BY: </span></li>
+		<li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">MAS RECIENTES </a></li>
+		<li data-filter=".POPULAR" role="presentation"><a href="#mostpopular" class="prcBtnR">MAS POPULARES </a></li>
+		<li  role="presentation"><a href="#" class="alphSort">POR LETRA</a></li>
+		<li data-filter=".HPRICE" role="presentation"><a href="#" class="prcBtnH">PRECIO MAS ALTO </a></li>
+		<li data-filter=".LPRICE" role="presentation"><a href="#" class="prcBtnL">PRECIO MAS BAJO </a></li>
+		<li id="hideonmobile">
+	</ul>
+</div>
+<br>
+<br>
+<!-- ________________________Latest Cars Image Thumbnail________________-->
+	<div class="grid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/car1.jpg" alt="car1">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Rolls Royce</h3>
+								<p>"un vehiculo clasico, elegante,<br>
+	 							la marca elite de BMW en su maximo explendor" </p>
+	 							<h4 class="price"> 200.000,00&dollar;</h4>
+	 							<button>LEER MAS</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseos <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+				<div class="txthover">
+					<img src="image/car2.jpg" alt="car2">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Renault</h3>
+								<p>"La marca francesa en su nacimiento,<br>
+	 							una marca totalmente diferente a la que conocemos en la actualidad" </p>
+	 							<h4 class="price">30.000,00 &dollar;</h4>
+	 							<button>LEER MAS</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseos
+                                    <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/car3.jpg" alt="car3">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Ford Mustang</h3>
+								<p>"La legendaria marca americana con sus mas de 7 entregas de este modelo,<br>
+	 							Cuenta con un potente motor V8 Turbo cargado" </p>
+	 							<h4 class="price">35.000,00 &dollar;</h4>
+	 							<button>READ MORE</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseos <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/car4.jpg" alt="car4">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Rover</h3>
+								<p>"Marca americana con un imponente motor naturalmente aspirado,<br>
+	 							diseñado para terrenos costeros tales como la playa" </p>
+	 							<h4 class="price">50,000,00 &dollar;</h4>
+	 							<button>LEER MAS</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseos <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/car5.jpg" alt="car5">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Porche</h3>
+								<p>"Marca Alemana con altisimos estandares de seguridad,<br>
+	 							brinda un potente motor, acompañado por una caja de cambios de doble embrague" </p>
+	 							<h4 class="price">60.000,00 &dollar;</h4>
+	 							<button>LEER MAS</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseos <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/car6.jpg" alt="car6">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Porche 911</h3>
+								<p>"El mejor diseño en la historia de PORSCHE,<br>
+	 							Un auto diseñado para la pista, y para quienes disfrutan de la velocidad" </p>
+	 							<h4 class="price">100.000,00 &dollar;</h4>
+	 							<button>LEER MAS</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseos <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/car7.jpg" alt="car7">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Chevrolet SS</h3>
+								<p>"Antecesor del modelo camaro,<br>
+	 							inspirado en un concepto de la epoca que nunca salio a la venta" </p>
+	 							<h4 class="price">40.000,00 &dollar;</h4>
+	 							<button>LER MAS</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseost <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/car8.jpg" alt="car8">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Mercedes Benz</h3>
+								<p>"Una marca con un gran renombre a nivel mundial,<br>
+	 							primer modelo de la serie AMG" </p>
+	 							<h4 class="price">150.000,00 &dollar;</h4>
+	 							<button>LEER MAS</button><br>
+	 							<div class="wishtxt">
+		 							<p class="paragraph1"> Añadir a la lista de deseos <span class="glyphicon glyphicon-heart"></span> </p>
+		 							<p class="paragraph2">Comparar <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+		 						</div>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>	
+		</div>
+	</div>
+<!-- _______________________________News Letter ____________________-->
+	<div class="newslettercontent">
+		<div class="leftside">
+			<img src="image/border.png" alt="border">
+			<h1>CLASICOS</h1>
+			<p>Muchos los llaman autos viejos, otros preferimos llamarlos bestias, antecesores de las maquinas que conocemos hoy en dia, adquiere una de estas bestias aqui</p>
+		</div>
+		<div class="rightside">
+			<img class="newsimage" src="image/newsletter.jpg" alt="newsletter">
+			<input type="text" class="form-control" id="subemail" placeholder="EMAIL">
+			<button>COMPRA YA</button>
+		</div>
+	</div>
+	<!-- ______________________________________________________Bottom Menu ______________________________-->
+	<div class="bottommenu">
+		
+		<ul class="nav nav-tabs bottomlinks">
+			<li role="presentation" ><a href="#/" role="button">ABOUT US</a></li>
+			<li role="presentation"><a href="#/">CATEGORIAS</a></li>
+			<li role="presentation"><a href="#/">PRECOMPRAR</a></li>
+			<li role="presentation"><a href="#/">CONTACTANOS</a></li>
+			<li role="presentation"><a href="#/">RECIBIR NOTICIAS</a></li>
+		</ul>
+		<p></p>
+		 <img src="image/line.png" alt="line"> <br>
+		 <div class="bottomsocial">
+		 	<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-google-plus"></i></a>
+			<a href="#"><i class="fa fa-pinterest"></i></a>
+		</div>
+			<div class="footer">
+				<div class="copyright">
+				  &copy; Copy right 2021 | <a href="#">Privacidad </a>| <a href="#">Politicas</a>
+				</div>
+				<div class="atisda">
+					 Diseñado por <a href="http://www.webdomus.net/">Oscar Granda</a> 
+				</div>
+			</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
+<script type="text/javascript" src="source/js/isotope.js"></script>
+<script type="text/javascript" src="source/js/myscript.js"></script> 
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+</body>
+</html>
